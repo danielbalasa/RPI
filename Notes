@@ -1,0 +1,10 @@
+
+
+Looking arch wiki they mentioned the chipset rtl8811au and they suggest a packet for its drivers.
+
+sudo apt install dkms
+git clone https://github.com/zebulon2/rtl8812au.git
+cd ./rtl8812au
+sudo ./dkms-install.sh 
+
+So fallowing these command you can install the full working driver and get your rtl8811au wifi dongle works without issues !
